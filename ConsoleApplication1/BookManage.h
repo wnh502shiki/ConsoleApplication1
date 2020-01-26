@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include "MBook.h"
 using namespace std;
 /*
 图书管理程序

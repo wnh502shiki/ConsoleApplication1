@@ -23,5 +23,8 @@
     <ClInclude Include="BookManage.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MBook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
