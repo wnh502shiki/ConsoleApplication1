@@ -18,6 +18,12 @@
     <ClCompile Include="ConsoleApplication1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MBook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BookManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BookManage.h">

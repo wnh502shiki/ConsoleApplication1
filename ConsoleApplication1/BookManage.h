@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include <vector>
 #include "MBook.h"
 using namespace std;
@@ -20,8 +21,15 @@ public:
 	bool editBook();
 
 private:
+	bool checkLegalISBN(string isbn);
+	bool checkExistISBN(string isbn);
+	bool checkStringIsNum(string str);
+	MBook* getBook(string isbn);
+	bool addBook(MBook* book);
 
+
+	bool m_runningflag;
 	//存储所有书籍信息
-	vector<MBook> m_books;
+	vector<MBook*> m_books;
 
 };
